@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(../img/ong.webp);
+}
+
+#login {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc9c9;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: gold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #ffae00;
+}
+
+.login {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.btn {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  color: black;
+}

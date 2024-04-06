@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Artsy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./update/update.html"
+                    >What's new?</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./log in/login.html"
+                ><i class="fa-solid fa-user fa-beat"></i
+              ></a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="image"></div>
+    <div class="container">
+      <div class="tablets row" id="products">
+        <!-- <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/tablet1.jpg"
+              class="card-img-top product-img"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Graphics Drawing Tablet</h5>
+              <div class="card-text">
+                <p>
+                  An affordable Art tablet with a pen and a pre-installed
+                  Drawing and Animation apps for those who want to draw.
+                </p>
+                <p id="price">Price: $60</p>
+                <p id="instock">In Stock: 8</p>
+              </div>
+              <a href="./detail/detail.html" class="btn btn-primary"
+                >Go somewhere</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/tablet2.jpg"
+              class="card-img-top product-img"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Drawing Tablet with Screen</h5>
+              <div class="card-text">
+                <p>
+                  It works with major graphics software like Photoshop, Painter,
+                  Illustrator, Clip Studio, SAI and more.
+                </p>
+                <p id="price">Price: $205</p>
+                <p id="instock">In Stock: 5</p>
+              </div>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/tablet3.jpg"
+              class="card-img-top product-img"
+              class="card-img-top product-img"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">PicassoTab Drawing Tablet</h5>
+              <div class="card-text">
+                <p>
+                  The IPS HD screen makes crystal clear pictures and the 64GB
+                  disk allows downloading thousands of free apps from the play
+                  store.
+                </p>
+                <p id="price">Price: $189</p>
+                <p id="instock">In Stock: 7</p>
+              </div>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div id="footer">
+      <div class="footer">
+        <div>
+          <h4 class="contact-title">CONTACT ME</h4>
+          <div class="sub-footer">
+            <div>
+              <i class="fa-brands fa-square-facebook fb"></i>
+              <i class="fa-brands fa-instagram ig"></i>
+              <i class="fa-brands fa-snapchat sc"></i>
+              <i class="fa-brands fa-pinterest-p pin"></i>
+              <i class="fa-brands fa-twitter tt"></i>
+              <i class="fa-brands fa-linkedin-in linkin"></i>
+            </div>
+            <h6 class="thank-you">
+              My appreciation:
+              <a class="textlink" href="./thanks/thanks.html">Thank you!</a>
+            </h6>
+          </div>
+        </div>
+
+        <div class="the-end">
+          <div><i class="fa-solid fa-earth-asia"></i> Vietnam</div>
+          <div class="end">
+            <a class="end-text textlink">Privacy and Cookies</a>
+            <a class="end-text textlink">Terms of use</a>
+            <a class="end-text textlink">Trademarks</a>
+            <a class="end-text textlink">About our ads</a>
+            <a class="end-text textlink">© 2023 Microsoft</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
