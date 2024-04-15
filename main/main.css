@@ -3,26 +3,42 @@ html {
   height: 100%;
 }
 
-.image {
-  background-image: url("./img/ong.webp");
-  filter: blur(4px);
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
+.sections:hover {
+  transform: scale(1.06);
+}
+
+body {
+  background: url(../img/nightsky.avif) no-repeat fixed;
   background-size: cover;
-  margin: 0 auto;
-  width: 100%;
+}
+
+.product-img {
+  border-radius: 5px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.detail-btn {
+  background-color: gold;
+  color: white;
+}
+
+.detail-btn:hover {
+  background-color: rgb(231, 196, 0);
+  color: #fff;
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   font-weight: bold;
   border: 3px solid #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
   width: 80%;
   padding: 20px;
   text-align: center;
@@ -80,4 +96,16 @@ footer {
 
 .hide {
   display: none;
+}
+
+.fb:hover {
+  color: blue;
+}
+
+.tw:hover {
+  color: lightblue;
+}
+
+.insta:hover {
+  color: pink;
 }

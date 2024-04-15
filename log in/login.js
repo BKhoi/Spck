@@ -21,7 +21,7 @@ login.onsubmit = function (event) {
         username.value.trim() == users[i].username &&
         password.value.trim() == users[i].password
       ) {
-        window.location.href = "../main.html";
+        location.replace("../index.html");
       }
     }
   }
